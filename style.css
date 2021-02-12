@@ -1,5 +1,6 @@
 h1 {
     color: white;
+    margin-left: 30px;
 }
 
 /* * {
@@ -10,6 +11,47 @@ h1 {
     background-color: cadetblue;
     display: flex;
     justify-content: space-between;
+}
+
+.header *{
+    border: solid;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+.menu{
+    margin-right: 30px;
+    padding-top: 30px;
+}
+
+.menu a{
+    margin: 10px;
+}
+
+
+.item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.33;
 }
 
 .site-description{
